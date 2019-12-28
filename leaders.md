@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Matt Stanchek](mailto://)
+* [Matt Stanchek](mailto:)
