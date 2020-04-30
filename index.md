@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: OWASP Jupiter
-tags: example-tag
+tags: faq-tag
 level: 0
 type: tool
 
