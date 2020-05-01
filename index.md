@@ -24,11 +24,18 @@ If "who owns this?" or "did you know this was in production?" sounds familiar, y
 
 # Jupiter Application Inventory Management System
 
+<img src="assets/images/jupiter.png" align="left">
+
 What if we leveraged those DevOps processes to gather crucial information about the organization’s software applications?
+
+<br>
+<br>
 
 ## Defining Application
 
-What is an application? Asking that question to five different people will probably yield five different answers. In terms of what the Jupiter Application Inventory Management System considers an application, it can be thought of as a singular module or code project unit that is built and deployed independently (aside from data or operating environment dependencies).
+What is an application? 
+
+Asking that question to five different people will probably yield five different answers. In terms of what the Jupiter Application Inventory Management System considers an application, it can be thought of as a singular module or code project unit that is built and deployed independently (aside from data or operating environment dependencies).
 
 Taking another step, an application has certain attributes. It has a name. It has a codebase and thus a code repository. Where is that repository? It might have a team that supports it and somebody who is ultimately responsible for it. Who owns it? These are the types of questions Jupiter helps to solve.
 
@@ -60,6 +67,8 @@ Data collected includes:
 * Last Deployment Date: The last date on which the application was deployed
 
 ## High Level Design
+
+![High-level Design](assets/images/hld.png)
 
 First, the Jupiter Collector Service can gather primitive inventory data (antecessors) directly from DevOps tools, such as continuous integration servers like Jenkins via the Jupiter Collector Plugin, when the software is built and deployed.
 
