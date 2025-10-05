@@ -1,0 +1,21 @@
+audience:
+  - builder
+leaders:
+  - name: Matt Stanchek
+    github: xpert98
+level: 2
+license:
+  - GPL-3.0
+  - MIT
+name: OWASP Jupiter
+pitch: Description for OWASP Jupiter
+repositories:
+  - name: www-project-jupiter
+    url: https://github.com/OWASP/www-project-jupiter
+    description: OWASP Foundation Web Repository
+tags:
+  - faq-tag
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-jupiter
